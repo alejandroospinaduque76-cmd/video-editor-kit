@@ -35,7 +35,7 @@
       "funsiona",
       "paso a paso"
     ],
-    "respuesta": "Descargas el ZIP, abres la carpeta en Claude Code o Codex y escribes «empezar». Revisa tu computador, te hace hasta 5 preguntas, mide 1 a 3 videos que te gusten y crea tu perfil de estilo. Después solo le dices «edita este video» y revisas el borrador antes de exportar."
+    "respuesta": "Descargas el ZIP, lo descomprimes, abres la carpeta video-editor en Claude Code o Codex y escribes «empezar». Revisa tu computador, te hace hasta 5 preguntas, mide 1 a 3 videos que te gusten y crea tu perfil de estilo. Después solo le dices «edita este video» y revisas el borrador antes de exportar."
   },
   {
     "id": "empezar",
@@ -326,7 +326,7 @@
       "entrega",
       "fisico"
     ],
-    "respuesta": "Es un producto digital: después de pagar descargas el ZIP (unos 430 MB) desde el recibo y desde tu biblioteca de Gumroad. Trae el editor, la guía visual paso a paso, la ayuda documentada, 165 iconos animados."
+    "respuesta": "Es un producto digital: después de pagar descargas el ZIP (unos 400 MB) desde el recibo y desde tu biblioteca de Gumroad. Trae el editor, la guía visual paso a paso, la ayuda documentada, 165 iconos animados."
   },
   {
     "id": "que-incluye",
@@ -1261,7 +1261,7 @@
       "guardar",
       "documentos"
     ],
-    "respuesta": "Suele pasar cuando la carpeta del kit está en OneDrive, Documentos o Escritorio. Cópiala a una carpeta local normal (por ejemplo C:\\Users\\tu-usuario\\video-editor) y vuelve a abrirla; no desactives protecciones del sistema."
+    "respuesta": "Suele pasar cuando la carpeta del kit está en OneDrive, Documentos o Escritorio. Muévela a Descargas o a tu carpeta de usuario (C:\\Users\\tu-usuario) y vuelve a abrirla en Claude Code. No desactives protecciones del sistema."
   },
   {
     "id": "donde-queda-video",
@@ -1450,5 +1450,103 @@
       "acuerdo"
     ],
     "respuesta": "Perfecto. ¿Quieres saber algo más? Si ya estás listo, lo compras aquí: {LINK_COMPRA}"
+  },
+  {
+    "id": "instalar",
+    "preguntas": [
+      "como lo instalo",
+      "como se instala",
+      "como descomprimo el zip",
+      "que hago despues de descargar",
+      "como abro el kit",
+      "como lo abro en windows",
+      "como se usa despues de comprar",
+      "pasos para instalar"
+    ],
+    "palabras": [
+      "instalo",
+      "instalar",
+      "descomprimo",
+      "descomprimir",
+      "extraer",
+      "abro",
+      "pasos",
+      "despues"
+    ],
+    "respuesta": "Son 3 pasos. 1) Descarga el ZIP desde tu recibo. 2) Descomprímelo: en Mac, doble clic; en Windows, clic derecho → Extraer todo → Extraer (la carpeta video-editor queda dentro de una carpeta con el nombre del ZIP). 3) Abre la carpeta video-editor en Claude Code o en Codex y escribe «empezar»: el kit revisa tu computador e instala lo que falte (en Mac puede pedirte tu contraseña una vez; en Linux te muestra el comando para instalarlo)."
+  },
+  {
+    "id": "zip-invalido",
+    "preguntas": [
+      "la carpeta comprimida no es valida",
+      "windows no puede abrir la carpeta",
+      "el zip no abre",
+      "error al descomprimir",
+      "el archivo esta dañado",
+      "no me deja descomprimir"
+    ],
+    "palabras": [
+      "valida",
+      "comprimida",
+      "dañado",
+      "danado",
+      "corrupto",
+      "descomprimir"
+    ],
+    "respuesta": "Casi siempre es una descarga incompleta. Vuelve a descargar el ZIP desde tu recibo de Gumroad y descomprímelo con clic derecho → Extraer todo. Usa siempre el ZIP de Gumroad, no una copia reenviada o vuelta a comprimir. Si sigue, escríbenos a {CORREO_SOPORTE}."
+  },
+  {
+    "id": "carpeta-doble",
+    "preguntas": [
+      "hay una carpeta dentro de otra",
+      "cual carpeta abro",
+      "no encuentro la carpeta video-editor",
+      "me salio video-editor 2",
+      "tengo dos carpetas"
+    ],
+    "palabras": [
+      "dentro",
+      "adentro",
+      "cual",
+      "duplicada",
+      "dos"
+    ],
+    "respuesta": "Abre la carpeta video-editor: es la que tiene dentro START-HERE.html y setup.sh. En Windows, Extraer todo la deja dentro de otra carpeta con el nombre del ZIP. En Mac, si descomprimes dos veces, la segunda copia se llama «video-editor 2» y puedes borrarla."
+  },
+  {
+    "id": "aviso-navegador",
+    "preguntas": [
+      "el navegador dice que el archivo es peligroso",
+      "edge bloqueo la descarga",
+      "chrome no me deja descargar",
+      "no se descarga con frecuencia",
+      "el antivirus bloqueo el zip"
+    ],
+    "palabras": [
+      "peligroso",
+      "bloqueo",
+      "edge",
+      "chrome",
+      "smartscreen",
+      "antivirus",
+      "defender",
+      "frecuencia"
+    ],
+    "respuesta": "Los navegadores avisan con archivos que se descargan poco. Si el ZIP viene de tu recibo de Gumroad, elige Conservar (en Edge: … → Conservar → Conservar de todos modos). Si Windows Defender lo retiene, escríbenos a {CORREO_SOPORTE} antes de cambiar nada."
+  },
+  {
+    "id": "git-windows",
+    "preguntas": [
+      "necesito git",
+      "que es git",
+      "me pide git",
+      "git bash",
+      "claude code pide git"
+    ],
+    "palabras": [
+      "git",
+      "gitbash"
+    ],
+    "respuesta": "En Windows el kit usa Git para Windows, el mismo que usa Claude Code. Si Claude Code ya funciona en tu PC, ya lo tienes. Si Claude Code te lo pide al abrirlo, instálalo desde git-scm.com con las opciones que trae y vuelve a abrirlo; con Codex, el kit lo instala solo."
   }
 ]
