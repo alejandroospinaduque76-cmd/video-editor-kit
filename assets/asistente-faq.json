@@ -1,0 +1,1454 @@
+[
+  {
+    "id": "que-es",
+    "preguntas": [
+      "que es esto",
+      "qué es video editor kit",
+      "de que se trata",
+      "que hace el kit",
+      "q es esto exactamente",
+      "explicame que es"
+    ],
+    "palabras": [
+      "que es",
+      "kit",
+      "trata",
+      "explicame",
+      "hace"
+    ],
+    "respuesta": "Es un editor de video en español que aprende cómo editas tú. Abres la carpeta en Claude Code o Codex, escribes «empezar», aprende tu estilo y luego le pides «edita este video»: transcribe, corta pausas y tomas repetidas, pone subtítulos sin tapar tu cara y te entrega el MP4 verificado. Lo compras aquí: {LINK_COMPRA}"
+  },
+  {
+    "id": "como-funciona",
+    "preguntas": [
+      "como funciona",
+      "cómo se usa",
+      "como lo uso",
+      "como funsiona",
+      "paso a paso como es",
+      "que tengo que hacer para usarlo"
+    ],
+    "palabras": [
+      "como funciona",
+      "usa",
+      "uso",
+      "funsiona",
+      "paso a paso"
+    ],
+    "respuesta": "Descargas el ZIP, abres la carpeta en Claude Code o Codex y escribes «empezar». Revisa tu computador, te hace hasta 5 preguntas, mide 1 a 3 videos que te gusten y crea tu perfil de estilo. Después solo le dices «edita este video» y revisas el borrador antes de exportar."
+  },
+  {
+    "id": "empezar",
+    "preguntas": [
+      "que pasa cuando escribo empezar",
+      "que es /empezar",
+      "para que sirve empezar",
+      "que preguntas hace",
+      "cuantas preguntas me hace"
+    ],
+    "palabras": [
+      "empezar",
+      "/empezar",
+      "preguntas",
+      "primer uso",
+      "onboarding"
+    ],
+    "respuesta": "«Empezar» es el primer uso: revisa tu equipo, te hace hasta 5 preguntas en un solo mensaje (nombre o marca, plataformas y duración, estilo de subtítulos A/B/C, qué hacer con los titubeos y palabras que se escriben mal) y mide 1 a 3 videos terminados que te gusten. Todas las preguntas tienen valor por defecto: con «ok» aceptas todo."
+  },
+  {
+    "id": "windows",
+    "preguntas": [
+      "sirve en windows",
+      "funciona en windows",
+      "funsiona en pc",
+      "tengo windows sirve",
+      "lo puedo usar en mi pc",
+      "es para windows",
+      "windows 11 sirve"
+    ],
+    "palabras": [
+      "windows",
+      "pc",
+      "windos",
+      "win",
+      "laptop"
+    ],
+    "respuesta": "Sí, probado en Windows: la edición completa (un clip vertical en español con tu perfil de estilo y un clip 16:9 para YouTube) pasó una prueba automática de principio a fin, sin aplicación de edición (ruta chat-only). El kit revisa las herramientas base y te guía para instalarlas; esa instalación desde cero en Windows aún está en prueba. Tienes la garantía de primera edición de 15 días: {LINK_COMPRA}"
+  },
+  {
+    "id": "mac-intel",
+    "preguntas": [
+      "tengo mac intel",
+      "sirve en mac con intel",
+      "mi mac es intel funciona",
+      "macbook intel sirve",
+      "mac viejo sirve",
+      "tengo un mac del 2018"
+    ],
+    "palabras": [
+      "intel",
+      "mac intel",
+      "macbook",
+      "viejo",
+      "2018",
+      "2019"
+    ],
+    "respuesta": "Sí puedes comprarlo. En un Mac con Intel real ya pasa lo que antes fallaba: instalar el motor y transcribir en español. La edición completa en Intel sigue en prueba final: si algo falla, escríbenos y te avisamos o te devolvemos el dinero. Además tienes la garantía de primera edición de 15 días. Si prefieres, déjame tu correo y te aviso cuando la edición completa esté probada en Intel: {LINK_COMPRA}"
+  },
+  {
+    "id": "linux",
+    "preguntas": [
+      "sirve en linux",
+      "funciona en ubuntu",
+      "tengo linux",
+      "se puede en linux",
+      "corre en debian"
+    ],
+    "palabras": [
+      "linux",
+      "ubuntu",
+      "debian",
+      "fedora"
+    ],
+    "respuesta": "Sí, probado en Linux (Ubuntu): la edición completa (un clip vertical en español con tu perfil de estilo y un clip 16:9 para YouTube) pasó una prueba automática de principio a fin, sin aplicación de edición (ruta chat-only). En Linux, el instalador te muestra un comando para instalar las herramientas base. Tienes la garantía de primera edición de 15 días: {LINK_COMPRA}"
+  },
+  {
+    "id": "mac-apple-silicon",
+    "preguntas": [
+      "tengo mac m1",
+      "sirve en mac m2",
+      "funciona en m3",
+      "tengo macbook air m1 sirve",
+      "mac mini m4 funciona",
+      "es para mac"
+    ],
+    "palabras": [
+      "m1",
+      "m2",
+      "m3",
+      "m4",
+      "apple silicon",
+      "mac"
+    ],
+    "respuesta": "Sí: en Mac con Apple Silicon (M1 o posterior) la edición completa está probada de principio a fin, incluida la prueba de comprador nuevo con un clip HDR de iPhone. Necesitas unos 10 GB libres y tu cuenta de Claude o ChatGPT. Lo compras aquí: {LINK_COMPRA}"
+  },
+  {
+    "id": "que-chip",
+    "preguntas": [
+      "como se que chip tiene mi mac",
+      "como saber si mi mac es m1",
+      "donde veo si es intel",
+      "como se si es apple silicon",
+      "que procesador tengo"
+    ],
+    "palabras": [
+      "chip",
+      "procesador",
+      "saber",
+      "acerca de este mac",
+      "apple silicon"
+    ],
+    "respuesta": "Abre el menú Apple → Acerca de este Mac. Si dice «Chip Apple M1, M2, M3…» es Apple Silicon; si dice «Procesador Intel», es un Mac con Intel. En ambos casos cuéntame y te digo cómo te sirve."
+  },
+  {
+    "id": "sistemas",
+    "preguntas": [
+      "en que computadores funciona",
+      "que sistemas soporta",
+      "en que compu sirve",
+      "que necesito de computador",
+      "requisitos de computador"
+    ],
+    "palabras": [
+      "computador",
+      "computadora",
+      "compu",
+      "sistema",
+      "sistemas",
+      "equipo"
+    ],
+    "respuesta": "La edición completa (un clip vertical en español con tu perfil de estilo y un clip 16:9 para YouTube) se probó automáticamente de principio a fin en Mac con Apple Silicon, Windows y Linux, sin aplicación de edición (ruta chat-only). En Linux, el instalador te muestra un comando para instalar las herramientas base. Mac con Intel: la versión para tu computador está en su prueba final; si algo falla, escríbenos y te avisamos cuando esté lista o te devolvemos el dinero."
+  },
+  {
+    "id": "precio",
+    "preguntas": [
+      "cuanto vale",
+      "cuánto cuesta",
+      "precio",
+      "q precio tiene",
+      "cuanto sale",
+      "cuanto es en dolares",
+      "valor del kit"
+    ],
+    "palabras": [
+      "precio",
+      "vale",
+      "cuesta",
+      "cuanto",
+      "valor",
+      "dolares",
+      "usd"
+    ],
+    "respuesta": "Cuesta US$97 como precio fundador para los primeros 30 compradores; después pasa a US$137. Es un pago único, sin suscripción del kit: {LINK_COMPRA}"
+  },
+  {
+    "id": "pago-unico",
+    "preguntas": [
+      "es pago unico",
+      "hay mensualidad",
+      "tiene suscripcion",
+      "se paga cada mes",
+      "es de por vida",
+      "pago mensual?"
+    ],
+    "palabras": [
+      "pago unico",
+      "mensualidad",
+      "suscripcion",
+      "mensual",
+      "por vida",
+      "cada mes"
+    ],
+    "respuesta": "El kit es un pago único, sin mensualidad. Lo único recurrente es tu propia suscripción de Claude o ChatGPT (no incluida), que si ya pagas no suma nada nuevo: {LINK_COMPRA}"
+  },
+  {
+    "id": "porque-137",
+    "preguntas": [
+      "por que 97 y luego 137",
+      "cuando sube el precio",
+      "precio fundador que es",
+      "por que es mas barato ahora",
+      "que es lo de los 30 cupos"
+    ],
+    "palabras": [
+      "fundador",
+      "137",
+      "sube",
+      "30",
+      "cupos"
+    ],
+    "respuesta": "US$97 es el precio para los primeros 30 compradores, a cambio de tu opinión después de tu primera edición. Al completarse los 30, pasa a US$137. El contador de la página se actualiza a mano con las ventas reales."
+  },
+  {
+    "id": "cupos",
+    "preguntas": [
+      "cuantos cupos quedan",
+      "quedan cupos",
+      "cuantos quedan a 97",
+      "todavia hay precio fundador",
+      "se acabaron los cupos"
+    ],
+    "palabras": [
+      "cupos",
+      "quedan",
+      "quedan cupos",
+      "todavia",
+      "disponibles"
+    ],
+    "respuesta": "El número real está en el contador de la página, que se actualiza a mano con las ventas de Gumroad; no quiero darte una cifra que no haya comprobado. Si ves cupos, entras a US$97: {LINK_COMPRA}"
+  },
+  {
+    "id": "descuento",
+    "preguntas": [
+      "hay descuento",
+      "tienen cupon",
+      "me haces un descuento",
+      "codigo de descuento",
+      "promo?"
+    ],
+    "palabras": [
+      "descuento",
+      "cupon",
+      "codigo",
+      "promo",
+      "rebaja",
+      "oferta"
+    ],
+    "respuesta": "No hay cupones en esta etapa: US$97 ya es el precio fundador para los primeros 30 compradores. Después sube a US$137: {LINK_COMPRA}"
+  },
+  {
+    "id": "como-pagar",
+    "preguntas": [
+      "como pago",
+      "donde lo compro",
+      "como lo compro",
+      "se paga con tarjeta",
+      "aceptan tarjeta",
+      "link de compra"
+    ],
+    "palabras": [
+      "comprar",
+      "compro",
+      "pago",
+      "tarjeta",
+      "gumroad",
+      "link"
+    ],
+    "respuesta": "Se compra solo en Gumroad, con tarjeta. Los impuestos que apliquen se muestran antes de confirmar. Aquí está el enlace: {LINK_COMPRA}"
+  },
+  {
+    "id": "otros-pagos",
+    "preguntas": [
+      "puedo pagar a plazos",
+      "aceptan paypal",
+      "puedo pagar con pse",
+      "hay pago en efectivo",
+      "puedo pagar por transferencia",
+      "oxxo?"
+    ],
+    "palabras": [
+      "paypal",
+      "pse",
+      "efectivo",
+      "transferencia",
+      "oxxo",
+      "nequi",
+      "plazos"
+    ],
+    "respuesta": "Hoy el pago es solo por Gumroad, en un solo pago. Ahí ves los métodos disponibles antes de confirmar: {LINK_COMPRA}. Si tienes un problema al pagar, escríbenos a {CORREO_SOPORTE}."
+  },
+  {
+    "id": "entrega",
+    "preguntas": [
+      "que recibo",
+      "como me llega",
+      "como lo descargo",
+      "es fisico",
+      "que me mandan despues de pagar",
+      "donde descargo el kit"
+    ],
+    "palabras": [
+      "recibo",
+      "descarga",
+      "descargo",
+      "llega",
+      "zip",
+      "entrega",
+      "fisico"
+    ],
+    "respuesta": "Es un producto digital: después de pagar descargas el ZIP (unos 430 MB) desde el recibo y desde tu biblioteca de Gumroad. Trae el editor, la guía visual paso a paso, la ayuda documentada, 165 iconos animados."
+  },
+  {
+    "id": "que-incluye",
+    "preguntas": [
+      "que incluye",
+      "que trae el kit",
+      "que viene en el paquete",
+      "trae plantillas?",
+      "que contiene"
+    ],
+    "palabras": [
+      "incluye",
+      "trae",
+      "contiene",
+      "paquete",
+      "plantillas",
+      "iconos"
+    ],
+    "respuesta": "Incluye el agente editor, la guía visual de 10 lecciones en español, ayuda documentada con un agente de ayuda para Claude Code, 165 iconos animados con fondo transparente y una plantilla de marca. El uso de IA va por tu propia cuenta: {LINK_COMPRA}"
+  },
+  {
+    "id": "garantia",
+    "preguntas": [
+      "tiene garantia",
+      "y si no me funciona",
+      "hay devolucion",
+      "me devuelven la plata",
+      "reembolso?",
+      "y si no me sirve"
+    ],
+    "palabras": [
+      "garantia",
+      "devolucion",
+      "reembolso",
+      "devuelven",
+      "plata",
+      "dinero"
+    ],
+    "respuesta": "Tienes garantía de primera edición de 15 días: si sigues la guía con un clip propio de 20 a 60 segundos y no consigues exportar tu primer video, nos escribes, te ayudamos y, si no se resuelve, te devolvemos el dinero completo. Escribe a {CORREO_SOPORTE}."
+  },
+  {
+    "id": "soporte",
+    "preguntas": [
+      "hay soporte",
+      "como pido ayuda",
+      "tienen llamadas",
+      "me pueden ayudar a instalar",
+      "atencion al cliente",
+      "hay videollamada"
+    ],
+    "palabras": [
+      "soporte",
+      "ayuda",
+      "llamada",
+      "videollamada",
+      "atencion",
+      "instalar",
+      "agente de ayuda"
+    ],
+    "respuesta": "El soporte es por correo, en {CORREO_SOPORTE} (no hacemos llamadas de soporte; la llamada 1 a 1 de 30 minutos es un bono para los primeros 30 compradores, para aprender a crear agentes). Además el kit trae una guía paso a paso, una guía de solución de problemas en español y un agente de ayuda que responde con la documentación."
+  },
+  {
+    "id": "bono-llamada",
+    "preguntas": [
+      "hay llamadas",
+      "llamada 1 a 1",
+      "me ayudas por videollamada",
+      "que es el bono",
+      "clases para crear agentes",
+      "puedo agendar una llamada contigo"
+    ],
+    "palabras": [
+      "llamada",
+      "1 a 1",
+      "bono",
+      "agentes",
+      "clases",
+      "agendar",
+      "reservar"
+    ],
+    "respuesta": "Es un bono para los primeros 30 compradores (precio fundador): una llamada 1 a 1 de 30 minutos para aprender a crear agentes como este. La reservas con el enlace que llega en tu correo de compra. No es soporte: las dudas del kit se atienden por correo. Lo compras aquí: {LINK_COMPRA}"
+  },
+  {
+    "id": "actualizaciones",
+    "preguntas": [
+      "las actualizaciones son gratis",
+      "tengo que pagar las nuevas versiones",
+      "incluye actualizaciones",
+      "si sale version nueva me llega",
+      "update gratis?"
+    ],
+    "palabras": [
+      "actualizacion",
+      "actualizaciones",
+      "version nueva",
+      "update",
+      "gratis"
+    ],
+    "respuesta": "Sí: la versión para Mac con Intel, cuando termine su prueba final, es gratis para quien compre. Cuando instales una versión nueva, escribes «empezar» en la carpeta nueva y trae tu perfil de estilo."
+  },
+  {
+    "id": "claude-chatgpt",
+    "preguntas": [
+      "funciona con claude",
+      "sirve con chatgpt",
+      "necesito claude o chatgpt",
+      "funciona con gpt",
+      "con cual ia funciona"
+    ],
+    "palabras": [
+      "claude",
+      "chatgpt",
+      "gpt",
+      "ia",
+      "openai",
+      "anthropic"
+    ],
+    "respuesta": "Funciona dentro de Claude Code (con tu cuenta de Claude) o de Codex (con tu cuenta de ChatGPT), en tu computador. La ruta probada de principio a fin es Claude Code; Codex: adaptación incluida, la prueba completa está en curso."
+  },
+  {
+    "id": "codex",
+    "preguntas": [
+      "sirve con codex",
+      "funciona en codex",
+      "lo puedo usar con codex de openai",
+      "codex si?",
+      "y con codex?"
+    ],
+    "palabras": [
+      "codex",
+      "openai",
+      "chatgpt"
+    ],
+    "respuesta": "Sí: abres la carpeta en Codex y le pides la edición en español, igual que en Claude Code. Codex: adaptación incluida; la prueba completa está en curso. El kit trae una guía específica para Codex."
+  },
+  {
+    "id": "claude-code-app",
+    "preguntas": [
+      "sirve la app de escritorio de claude",
+      "necesito la terminal",
+      "funciona en claude code desktop",
+      "tengo que usar la terminal?",
+      "claude code app o terminal"
+    ],
+    "palabras": [
+      "terminal",
+      "escritorio",
+      "desktop",
+      "app",
+      "claude code"
+    ],
+    "respuesta": "Puedes usar Claude Code en la app de escritorio o en la terminal; las dos sirven. Solo abres la carpeta del kit y escribes «empezar»."
+  },
+  {
+    "id": "chat-web",
+    "preguntas": [
+      "sirve en el chat de claude normal",
+      "lo puedo usar en chatgpt web",
+      "funciona en claude.ai",
+      "en el navegador sirve",
+      "sirve con el chat normal"
+    ],
+    "palabras": [
+      "chat web",
+      "navegador",
+      "claude.ai",
+      "chat normal",
+      "web"
+    ],
+    "respuesta": "El chat web normal no ejecuta el kit por sí solo: hace falta Claude Code o Codex en tu computador, que son los que pueden leer la carpeta y usar sus herramientas. Con tu misma cuenta de pago puedes usar Claude Code."
+  },
+  {
+    "id": "costo-ia",
+    "preguntas": [
+      "cuanto cuesta la ia",
+      "tengo que pagar claude aparte",
+      "esta incluido claude",
+      "necesito plan pago de claude",
+      "cuanto sale claude code",
+      "incluye la suscripcion de claude"
+    ],
+    "palabras": [
+      "costo ia",
+      "claude pro",
+      "plan",
+      "aparte",
+      "incluido",
+      "suscripcion"
+    ],
+    "respuesta": "El uso de IA no está incluido: necesitas tu propia cuenta de pago de Claude o ChatGPT, desde unos US$20 al mes (el precio lo fija cada empresa). La transcripción corre en tu computador, así que no pagas por minuto de video."
+  },
+  {
+    "id": "pago-por-minuto",
+    "preguntas": [
+      "cobran por minuto",
+      "hay creditos",
+      "se me acaban los creditos",
+      "cuantos videos puedo editar",
+      "tiene limite de videos"
+    ],
+    "palabras": [
+      "creditos",
+      "minuto",
+      "limite",
+      "cuantos videos",
+      "cobran"
+    ],
+    "respuesta": "No hay créditos ni pago por minuto: la transcripción y el render se hacen en tu computador. Puedes editar los videos que quieras; el único límite es el uso de tu propia suscripción de Claude o ChatGPT."
+  },
+  {
+    "id": "programar",
+    "preguntas": [
+      "tengo que saber programar",
+      "es dificil de usar",
+      "soy nuevo en esto sirve",
+      "no se nada de codigo",
+      "es complicado?",
+      "necesito saber de terminal"
+    ],
+    "palabras": [
+      "programar",
+      "codigo",
+      "dificil",
+      "complicado",
+      "nuevo",
+      "principiante"
+    ],
+    "respuesta": "No necesitas programar: todo se pide en español, en lenguaje normal, y la guía trae instrucciones listas para copiar. Empieza con un clip corto de 20 a 60 segundos: {LINK_COMPRA}"
+  },
+  {
+    "id": "requisitos",
+    "preguntas": [
+      "que necesito",
+      "requisitos",
+      "que requisitos tiene",
+      "q necesito para usarlo",
+      "cuanto espacio necesito"
+    ],
+    "palabras": [
+      "requisitos",
+      "necesito",
+      "espacio",
+      "gb",
+      "disco"
+    ],
+    "respuesta": "Necesitas tu cuenta de Claude (Claude Code) o de ChatGPT (Codex), unos 10 GB libres e internet para la primera instalación. La edición completa (un clip vertical en español con tu perfil de estilo y un clip 16:9 para YouTube) se probó automáticamente de principio a fin en Mac con Apple Silicon, Windows y Linux, sin aplicación de edición (ruta chat-only). En Linux, el instalador te muestra un comando para instalar las herramientas base. Mac con Intel: la versión para tu computador está en su prueba final; si algo falla, escríbenos y te avisamos cuando esté lista o te devolvemos el dinero."
+  },
+  {
+    "id": "descarga-inicial",
+    "preguntas": [
+      "cuanto descarga la primera vez",
+      "cuanto pesa",
+      "cuantos gb baja",
+      "que tanto internet necesito",
+      "la primera vez descarga algo?"
+    ],
+    "palabras": [
+      "descarga",
+      "pesa",
+      "gb",
+      "internet",
+      "modelos",
+      "primera vez"
+    ],
+    "respuesta": "La primera vez descarga una sola vez unos 4,3 GB de modelos (el motor de transcripción); las ediciones siguientes reutilizan lo descargado. Deja unos 10 GB libres. Cuánto tarda depende de tu conexión."
+  },
+  {
+    "id": "cuanto-tarda",
+    "preguntas": [
+      "cuanto se demora en editar",
+      "que tan rapido es",
+      "cuanto tarda un video",
+      "en cuantos minutos edita",
+      "es rapido?"
+    ],
+    "palabras": [
+      "tarda",
+      "demora",
+      "rapido",
+      "minutos",
+      "tiempo"
+    ],
+    "respuesta": "No prometo tiempos porque dependen de tu computador, tu conexión (sobre todo la primera descarga) y el largo del clip. Lo que sí: tú solo revisas y apruebas; el trabajo repetitivo lo hace el kit."
+  },
+  {
+    "id": "que-edita",
+    "preguntas": [
+      "que tipo de videos edita",
+      "que edita",
+      "sirve para reels",
+      "edita tiktoks",
+      "para que formatos sirve"
+    ],
+    "palabras": [
+      "reels",
+      "tiktok",
+      "shorts",
+      "formato",
+      "vertical",
+      "tipo de videos"
+    ],
+    "respuesta": "Edita video vertical corto (Reels, TikTok, Shorts) y videos 16:9 para YouTube: la edición completa de los dos se probó automáticamente en Mac con Apple Silicon, Windows y Linux. También convierte un video largo en varios clips verticales con subtítulos, probado en Mac con Apple Silicon."
+  },
+  {
+    "id": "youtube",
+    "preguntas": [
+      "sirve para youtube",
+      "edita videos largos",
+      "videos de 10 minutos sirve",
+      "formato horizontal",
+      "youtube 16:9?"
+    ],
+    "palabras": [
+      "youtube",
+      "largo",
+      "horizontal",
+      "16:9",
+      "10 minutos"
+    ],
+    "respuesta": "Sí. La edición completa automática de un clip 16:9 para YouTube (cortes, audio y versión a −14 LUFS y pico real de −1,5 dBTP o menos) está probada en Mac con Apple Silicon, Windows y Linux. Los gráficos avanzados y el color pueden necesitar un ajuste tuyo."
+  },
+  {
+    "id": "clips",
+    "preguntas": [
+      "corta un video largo en clips",
+      "saca clips de un podcast",
+      "hace clips para reels de un video largo",
+      "clipper",
+      "puede sacar varios shorts de un video"
+    ],
+    "palabras": [
+      "clips",
+      "clipper",
+      "podcast",
+      "cortar",
+      "shorts",
+      "recortes"
+    ],
+    "respuesta": "Sí: de un video largo saca varios clips verticales con subtítulos; está probado en Mac con Apple Silicon. Tú revisas y apruebas cada clip antes de publicarlo."
+  },
+  {
+    "id": "muletillas",
+    "preguntas": [
+      "quita las muletillas",
+      "elimina los eh",
+      "quita los ehh y mmm",
+      "saca las muletillas solo",
+      "borra los titubeos"
+    ],
+    "palabras": [
+      "muletillas",
+      "titubeos",
+      "eh",
+      "mmm",
+      "este",
+      "o sea"
+    ],
+    "respuesta": "Corta pausas, aire muerto y tomas repetidas. Además detecta titubeos ocultos en español (esos «eh» que la transcripción no escribe) y te los lista para que decidas cuáles se van; no los corta solo, porque a veces marca una palabra que sí necesitabas."
+  },
+  {
+    "id": "pausas",
+    "preguntas": [
+      "quita los silencios",
+      "corta las pausas",
+      "saca el aire muerto",
+      "quita los espacios en blanco",
+      "elimina silencios"
+    ],
+    "palabras": [
+      "silencios",
+      "pausas",
+      "aire muerto",
+      "espacios",
+      "cortes"
+    ],
+    "respuesta": "Sí: corta pausas y aire muerto según tu perfil de estilo (por ejemplo, el largo máximo de pausa que te gusta). Si quieres más o menos cortes, lo dices en una frase y lo ajusta."
+  },
+  {
+    "id": "tomas-repetidas",
+    "preguntas": [
+      "quita cuando me equivoco",
+      "si repito una frase la corta",
+      "detecta retomas",
+      "si me trabo y repito",
+      "tomas repetidas"
+    ],
+    "palabras": [
+      "retomas",
+      "repito",
+      "equivoco",
+      "tomas",
+      "trabo"
+    ],
+    "respuesta": "Sí: cuando repites una frase, conserva la última toma y te lista las que cortó para que revises. Si prefieres elegir tú la toma, se lo dices y queda en tu perfil."
+  },
+  {
+    "id": "subtitulos",
+    "preguntas": [
+      "pone subtitulos",
+      "hace subtitulos automaticos",
+      "los subtitulos tapan la cara",
+      "que estilos de subtitulos tiene",
+      "subtitulos en español?"
+    ],
+    "palabras": [
+      "subtitulos",
+      "captions",
+      "letras",
+      "texto",
+      "cara"
+    ],
+    "respuesta": "Sí: pone subtítulos en español midiendo dónde está tu cara para no taparla, y siempre dentro de la zona segura de Instagram. Eliges entre tres estilos (A caja, B borde, C grandes con la palabra que dices en amarillo) o ninguno, y el tamaño y la posición se ajustan a tu gusto."
+  },
+  {
+    "id": "espanol",
+    "preguntas": [
+      "funciona en español",
+      "entiende español latino",
+      "transcribe bien en español",
+      "sirve si hablo español",
+      "pone tildes?"
+    ],
+    "palabras": [
+      "español",
+      "espanol",
+      "latino",
+      "tildes",
+      "transcribe",
+      "idioma"
+    ],
+    "respuesta": "Sí, está hecho para español: detecta el idioma de cada clip y alinea con el modelo en español, con tildes y tiempos por palabra. Los nombres que se oyen mal (por ejemplo «Clot» por Claude) se corrigen con una lista que tú amplías."
+  },
+  {
+    "id": "ingles",
+    "preguntas": [
+      "sirve para videos en ingles",
+      "edita en otro idioma",
+      "puedo usarlo en ingles",
+      "funciona en portugues",
+      "videos bilingues"
+    ],
+    "palabras": [
+      "ingles",
+      "english",
+      "portugues",
+      "otro idioma",
+      "bilingue"
+    ],
+    "respuesta": "El kit detecta el idioma de cada clip y, si le escribes en inglés, te responde en inglés; lo probado de principio a fin es en español. Si un clip mezcla idiomas, puedes indicarle el idioma a mano."
+  },
+  {
+    "id": "nombres-mal",
+    "preguntas": [
+      "escribe mal mi nombre",
+      "si transcribe mal una marca",
+      "corrige palabras mal escritas",
+      "pone mal los nombres",
+      "se equivoca en palabras"
+    ],
+    "palabras": [
+      "nombre",
+      "marca",
+      "mal escrito",
+      "corrige",
+      "palabras"
+    ],
+    "respuesta": "En las preguntas iniciales le dices qué palabras suelen salir mal (nombres, marcas, jerga) y las corrige siempre. Si aparece una nueva, la agregas una vez y llega a subtítulos y gráficos."
+  },
+  {
+    "id": "aprende-estilo",
+    "preguntas": [
+      "como aprende mi estilo",
+      "que es el perfil de estilo",
+      "aprende como edito",
+      "copia mi estilo?",
+      "se adapta a mi forma de editar"
+    ],
+    "palabras": [
+      "estilo",
+      "perfil",
+      "aprende",
+      "estilo.md",
+      "adapta"
+    ],
+    "respuesta": "Mide 1 a 3 videos terminados que te gusten (ritmo de cortes, pausas, velocidad al hablar, subtítulos) y crea tu perfil en un archivo ESTILO.md en español claro. Cada vez que corriges algo, te pregunta «¿siempre así?» y lo guarda. Aprende de videos que te gustan; no promete editar exactamente como tú."
+  },
+  {
+    "id": "copiar-creador",
+    "preguntas": [
+      "puede copiar el estilo de un youtuber",
+      "quiero que edite como mrbeast",
+      "copia el estilo de otro creador",
+      "le paso videos de otro y lo imita",
+      "puedo usar videos de otra persona de referencia"
+    ],
+    "palabras": [
+      "copiar",
+      "imitar",
+      "otro creador",
+      "youtuber",
+      "referencia"
+    ],
+    "respuesta": "Puedes darle de referencia videos que te gusten, tuyos o de alguien cuyo estilo quieras seguir, y aprende de ellos su ritmo y sus subtítulos. No promete copiar a otro creador: toma esos videos como punto de partida y tú afinas el resultado."
+  },
+  {
+    "id": "sin-videos-referencia",
+    "preguntas": [
+      "y si no tengo videos",
+      "no tengo videos editados",
+      "es obligatorio darle videos",
+      "puedo empezar sin referencias",
+      "soy nuevo y no tengo videos"
+    ],
+    "palabras": [
+      "sin videos",
+      "no tengo",
+      "referencias",
+      "obligatorio"
+    ],
+    "respuesta": "No es obligatorio: escribes «sin videos» y edita con los valores iniciales del kit. Cuando tengas videos que te gusten, dices «actualizar mi estilo» y los mide."
+  },
+  {
+    "id": "varios-perfiles",
+    "preguntas": [
+      "puedo tener varios perfiles",
+      "edito para varios clientes",
+      "un estilo por cliente",
+      "manejo varias marcas",
+      "sirve para agencia"
+    ],
+    "palabras": [
+      "perfiles",
+      "clientes",
+      "marcas",
+      "agencia",
+      "varios"
+    ],
+    "respuesta": "Sí: puedes crear un perfil de estilo por creador o cliente con «nuevo perfil» y cambiar con «usa el perfil <nombre>». Cada uno guarda su ritmo, sus subtítulos y su vocabulario."
+  },
+  {
+    "id": "clientes-licencia",
+    "preguntas": [
+      "puedo usarlo para editar a clientes",
+      "puedo cobrar por editar con esto",
+      "licencia comercial",
+      "lo puedo revender",
+      "puedo compartirlo con mi equipo"
+    ],
+    "palabras": [
+      "licencia",
+      "comercial",
+      "revender",
+      "cobrar",
+      "compartir",
+      "equipo"
+    ],
+    "respuesta": "Sí puedes editar videos de tus clientes (con sus permisos) y cobrar por tu trabajo. Lo que no se permite es revender ni redistribuir el kit. Si tienes un caso de equipo, escríbenos a {CORREO_SOPORTE}."
+  },
+  {
+    "id": "original",
+    "preguntas": [
+      "toca mi video original",
+      "borra mis archivos",
+      "modifica la grabacion",
+      "se puede perder mi video",
+      "es seguro para mis archivos"
+    ],
+    "palabras": [
+      "original",
+      "archivos",
+      "borra",
+      "seguro",
+      "modifica",
+      "grabacion"
+    ],
+    "respuesta": "No: el kit copia tu clip al proyecto y trabaja sobre la copia; el original nunca se toca. La exportación final solo se crea cuando la apruebas y nunca sobrescribe un final que ya exista."
+  },
+  {
+    "id": "aprobar",
+    "preguntas": [
+      "puedo revisar antes de exportar",
+      "yo apruebo los cortes",
+      "exporta solo",
+      "puedo cambiar algo antes",
+      "tengo control de la edicion"
+    ],
+    "palabras": [
+      "revisar",
+      "aprobar",
+      "apruebo",
+      "control",
+      "borrador",
+      "cambiar"
+    ],
+    "respuesta": "Sí: revisas la transcripción, los cortes y el borrador, pides cambios concretos y el final solo se exporta cuando lo apruebas. Si un cambio te gusta para siempre, lo guarda en tu perfil."
+  },
+  {
+    "id": "privacidad",
+    "preguntas": [
+      "suben mis videos a internet",
+      "mis videos son privados",
+      "donde se procesan los videos",
+      "es privado?",
+      "ven mis videos"
+    ],
+    "palabras": [
+      "privacidad",
+      "privado",
+      "suben",
+      "nube",
+      "procesan",
+      "datos"
+    ],
+    "respuesta": "Tus videos se procesan en tu computador: la transcripción y el análisis de tus videos de referencia son locales y no se suben a ningún servidor del vendedor. En el perfil de estilo, Claude ve los números medidos, no las imágenes."
+  },
+  {
+    "id": "iphone",
+    "preguntas": [
+      "sirve con videos de iphone",
+      "grabo con el celular sirve",
+      "videos hdr del iphone",
+      "los videos verticales del cel",
+      "grabo en 4k con iphone"
+    ],
+    "palabras": [
+      "iphone",
+      "celular",
+      "cel",
+      "hdr",
+      "4k",
+      "movil"
+    ],
+    "respuesta": "Sí: convierte los clips HDR del iPhone a colores normales y lee la rotación de los verticales; se probó con un clip vertical HDR de iPhone y salió con los colores correctos."
+  },
+  {
+    "id": "android",
+    "preguntas": [
+      "sirve con videos de android",
+      "grabo con samsung",
+      "videos de xiaomi sirven",
+      "celular android funciona"
+    ],
+    "palabras": [
+      "android",
+      "samsung",
+      "xiaomi",
+      "motorola"
+    ],
+    "respuesta": "Los clips de Android aún no se han probado, así que no te lo puedo confirmar. Lo probado es con clips de iPhone. Si quieres, escríbenos a {CORREO_SOPORTE} con los detalles de tu celular."
+  },
+  {
+    "id": "celular-editar",
+    "preguntas": [
+      "puedo editar desde el celular",
+      "funciona en el telefono",
+      "hay app para celular",
+      "sirve en ipad",
+      "lo uso en mi iphone"
+    ],
+    "palabras": [
+      "celular",
+      "telefono",
+      "app movil",
+      "ipad",
+      "movil"
+    ],
+    "respuesta": "La edición se hace en un computador con Claude Code o Codex; en el celular puedes leer la guía. Los videos que grabas con el celular sí sirven."
+  },
+  {
+    "id": "premiere-capcut",
+    "preguntas": [
+      "funciona con premiere",
+      "sirve con capcut",
+      "se conecta a davinci",
+      "lo uso con final cut",
+      "necesito premiere?"
+    ],
+    "palabras": [
+      "premiere",
+      "capcut",
+      "davinci",
+      "resolve",
+      "final cut"
+    ],
+    "respuesta": "No necesitas ninguna app de edición: la ruta probada es la local (chat-only), hablas con el asistente y sale el MP4. Premiere Pro está incluido; probado por partes en Premiere Pro 2022 en español (gráficos, efectos de sonido, música, pulido de audio y capa de color Lumetri), aún no de principio a fin. El difuminado de privacidad no está disponible en Premiere 2022: necesita un Premiere más nuevo. DaVinci Resolve, CapCut y Final Cut Pro (en Mac) están incluidos, no probados; el estilo Talking Head Explainer también está incluido."
+  },
+  {
+    "id": "mirada-guion",
+    "preguntas": [
+      "detecta cuando leo un guion",
+      "detecta cuando miro a otro lado",
+      "se nota que estoy leyendo",
+      "corta cuando miro al telefono",
+      "detecta la mirada fuera de camara"
+    ],
+    "palabras": [
+      "guion",
+      "leo",
+      "leyendo",
+      "mirada",
+      "miro",
+      "otro lado",
+      "teleprompter",
+      "camara"
+    ],
+    "respuesta": "Sí: marca cuándo miras a un lado, arriba o abajo (por ejemplo, al leer un guion), con la frase que decías, también en videos horizontales. Solo recorta silencio y nunca borra palabras: te muestra la frase para que tú decidas."
+  },
+  {
+    "id": "zona-segura",
+    "preguntas": [
+      "los subtitulos quedan en la zona segura de instagram",
+      "los subtitulos los tapa la interfaz de instagram",
+      "subtitulos zona segura reels",
+      "se salen los subtitulos de la pantalla"
+    ],
+    "palabras": [
+      "zona segura",
+      "safe zone",
+      "interfaz",
+      "instagram",
+      "se salen",
+      "tapa"
+    ],
+    "respuesta": "Sí: los subtítulos quedan siempre dentro de la zona segura de Instagram, también con tamaños grandes, porque las líneas se parten según su ancho medido. Además se colocan midiendo dónde está tu cara para no taparla."
+  },
+  {
+    "id": "final-cut",
+    "preguntas": [
+      "sirve con final cut",
+      "funciona con final cut pro",
+      "se conecta a final cut",
+      "uso final cut pro"
+    ],
+    "palabras": [
+      "final cut",
+      "fcp",
+      "final cut pro"
+    ],
+    "respuesta": "Final Cut Pro está incluido como app de edición en Mac: el kit arma la línea de tiempo y exporta. Está incluido, aún sin prueba de principio a fin; la ruta probada es la local, sin aplicación de edición, que no necesita Final Cut."
+  },
+  {
+    "id": "vs-submagic",
+    "preguntas": [
+      "en que se diferencia de submagic",
+      "es mejor que capcut",
+      "por que no uso descript",
+      "comparado con opus clip",
+      "que diferencia tiene con capcut pro"
+    ],
+    "palabras": [
+      "submagic",
+      "descript",
+      "capcut",
+      "opus",
+      "diferencia",
+      "mejor"
+    ],
+    "respuesta": "Esas apps son completas y se pagan cada mes o año (en plan anual, entre unos US$180 y 290). El kit se paga una vez, procesa en tu computador, trabaja conversando en español y aprende tu estilo; a cambio necesitas Claude Code o Codex y no tiene línea de tiempo visual propia. Si prefieres arrastrar clips en una interfaz, una app puede irte mejor."
+  },
+  {
+    "id": "skills-gratis",
+    "preguntas": [
+      "hay skills gratis que hacen lo mismo",
+      "por que pagar si hay gratis",
+      "puedo hacerlo yo con claude gratis",
+      "no es lo mismo que una skill gratis",
+      "hay repos en github gratis"
+    ],
+    "palabras": [
+      "gratis",
+      "skills",
+      "github",
+      "free",
+      "pagar"
+    ],
+    "respuesta": "Existen skills gratis, casi todas en inglés, y si te gusta armar tu flujo, pruébalas. Este kit es para quien lo quiere ya armado y probado en español: aprende de videos que te gustan, alinea en español, convierte el HDR del iPhone, pone subtítulos sin tapar la cara y verifica el MP4."
+  },
+  {
+    "id": "caro",
+    "preguntas": [
+      "esta caro",
+      "es mucha plata",
+      "no me alcanza",
+      "muy caro para mi",
+      "vale la pena?"
+    ],
+    "palabras": [
+      "caro",
+      "plata",
+      "alcanza",
+      "vale la pena",
+      "costoso"
+    ],
+    "respuesta": "Te entiendo. Como referencia, un año de Submagic, Descript o CapCut Pro cuesta entre unos US$180 y 290, y un editor en Latinoamérica cobra de US$40 a 400 al mes por 8 reels; el kit es US$97 una vez, más tu suscripción de Claude o ChatGPT. Si no te cuadra ahora, no pasa nada."
+  },
+  {
+    "id": "editor-humano",
+    "preguntas": [
+      "reemplaza a un editor",
+      "es mejor que contratar editor",
+      "sirve en vez de un editor",
+      "ya no necesito editor?"
+    ],
+    "palabras": [
+      "editor humano",
+      "editor",
+      "contratar",
+      "reemplaza",
+      "freelance"
+    ],
+    "respuesta": "Hace el trabajo repetitivo de la edición (cortes, subtítulos, audio, exportación) y tú revisas cada entrega. Un editor humano aporta criterio creativo propio; muchos creadores usan el kit para sus videos del día a día."
+  },
+  {
+    "id": "graficos-musica",
+    "preguntas": [
+      "pone musica",
+      "agrega efectos",
+      "hace animaciones",
+      "pone graficos y zooms",
+      "tiene transiciones"
+    ],
+    "palabras": [
+      "musica",
+      "graficos",
+      "zooms",
+      "animaciones",
+      "efectos",
+      "transiciones"
+    ],
+    "respuesta": "Puede agregar música de fondo (opcional), gráficos y zooms si los pides o si están en tu perfil, y trae 165 iconos animados. Los gráficos avanzados pueden necesitar un ajuste tuyo."
+  },
+  {
+    "id": "plataformas",
+    "preguntas": [
+      "hace version para cada red",
+      "exporta para tiktok y reels",
+      "ajusta el volumen para instagram",
+      "suena bajo en reels",
+      "entrega por plataforma"
+    ],
+    "palabras": [
+      "plataforma",
+      "version",
+      "volumen",
+      "instagram",
+      "lufs",
+      "exporta"
+    ],
+    "respuesta": "Sí: además del final, prepara versiones para Reels, TikTok, Shorts o YouTube a −14 LUFS y pico real de −1,5 dBTP o menos, sin tocar el final aprobado. No publica por ti."
+  },
+  {
+    "id": "publica",
+    "preguntas": [
+      "lo publica solo en mis redes",
+      "sube el video a instagram",
+      "programa publicaciones",
+      "publica automatico"
+    ],
+    "palabras": [
+      "publica",
+      "sube",
+      "redes",
+      "programa",
+      "automatico"
+    ],
+    "respuesta": "No publica en redes: te entrega el MP4 final y las versiones por plataforma listas para que tú las subas."
+  },
+  {
+    "id": "antes-despues",
+    "preguntas": [
+      "hace un antes y despues",
+      "puedo ver la diferencia",
+      "comparacion antes despues",
+      "muestra el antes y el despues del video"
+    ],
+    "palabras": [
+      "antes",
+      "despues",
+      "comparacion",
+      "diferencia"
+    ],
+    "respuesta": "Sí: después de tu primer video te ofrece un antes/después de 10 segundos para que veas la diferencia."
+  },
+  {
+    "id": "problema-instalacion",
+    "preguntas": [
+      "no me instala",
+      "me sale un error",
+      "se quedo pegado",
+      "tengo un error al instalar",
+      "no arranca"
+    ],
+    "palabras": [
+      "error",
+      "instala",
+      "pegado",
+      "falla",
+      "problema",
+      "arranca"
+    ],
+    "respuesta": "El kit trae una guía de solución de problemas en español y un agente de ayuda. Si sigue el problema, escríbenos a {CORREO_SOPORTE} con tu sistema, si usas Claude Code o Codex, la etapa y el error exacto (sin claves ni datos personales)."
+  },
+  {
+    "id": "primera-transcripcion-lenta",
+    "preguntas": [
+      "la primera transcripcion tarda mucho",
+      "esta descargando mucho",
+      "se demora la primera vez",
+      "sale texto rojo torchcodec"
+    ],
+    "palabras": [
+      "transcripcion",
+      "lenta",
+      "torchcodec",
+      "descargando",
+      "primera vez"
+    ],
+    "respuesta": "La primera vez descarga una sola vez unos 4,3 GB; si hay progreso, no la interrumpas ni borres cachés. Un texto rojo que menciona «torchcodec» es un aviso de una dependencia: si la transcripción terminó, se ignora."
+  },
+  {
+    "id": "windows-onedrive",
+    "preguntas": [
+      "error no such file or directory en windows",
+      "no me deja guardar en windows",
+      "el kit esta en onedrive",
+      "error de permisos windows"
+    ],
+    "palabras": [
+      "onedrive",
+      "no such file",
+      "permisos",
+      "guardar",
+      "documentos"
+    ],
+    "respuesta": "Suele pasar cuando la carpeta del kit está en OneDrive, Documentos o Escritorio. Cópiala a una carpeta local normal (por ejemplo C:\\Users\\tu-usuario\\video-editor) y vuelve a abrirla; no desactives protecciones del sistema."
+  },
+  {
+    "id": "donde-queda-video",
+    "preguntas": [
+      "donde queda el video",
+      "no encuentro el mp4",
+      "donde se guarda el video editado",
+      "donde esta el archivo final"
+    ],
+    "palabras": [
+      "mp4",
+      "archivo final",
+      "guarda",
+      "encuentro",
+      "outputs"
+    ],
+    "respuesta": "El final queda en projects/<trabajo>/outputs/<trabajo>.final.mp4, dentro de la carpeta del kit, y el editor te dice la ruta exacta al terminar."
+  },
+  {
+    "id": "quien-vende",
+    "preguntas": [
+      "quien lo vende",
+      "quien esta detras",
+      "es oficial de anthropic",
+      "es de claude oficialmente",
+      "es confiable?"
+    ],
+    "palabras": [
+      "quien",
+      "vendedor",
+      "oficial",
+      "anthropic",
+      "confiable"
+    ],
+    "respuesta": "Lo vende Alejandro Ospina Duque, desde Colombia. Es un kit independiente, sin afiliación con Anthropic, OpenAI ni los fabricantes de apps de edición. La compra va por Gumroad y tiene garantía de primera edición de 15 días."
+  },
+  {
+    "id": "avisame",
+    "preguntas": [
+      "avisame cuando salga para windows",
+      "quiero que me avises",
+      "te dejo mi correo",
+      "me anotas en la lista",
+      "cuando este listo me escribes"
+    ],
+    "palabras": [
+      "avisame",
+      "avisar",
+      "correo",
+      "lista",
+      "email",
+      "anotame"
+    ],
+    "respuesta": "Con gusto: déjame tu correo aquí y te aviso cuando la versión para tu computador esté lista. Si prefieres no esperar, puedes comprar ya con la garantía de 15 días: {LINK_COMPRA}"
+  },
+  {
+    "id": "comprar-ya",
+    "preguntas": [
+      "lo quiero",
+      "quiero comprarlo",
+      "me interesa comprar",
+      "como lo consigo",
+      "va, lo compro"
+    ],
+    "palabras": [
+      "quiero",
+      "comprarlo",
+      "consigo",
+      "interesa",
+      "lo compro"
+    ],
+    "respuesta": "Genial. Lo compras aquí, a US$97 precio fundador, con garantía de primera edición de 15 días: {LINK_COMPRA}. Después de pagar, descargas el ZIP, abres la carpeta en Claude Code o Codex y escribes «empezar»."
+  },
+  {
+    "id": "hablar-humano",
+    "preguntas": [
+      "quiero hablar con una persona",
+      "hay alguien para hablar",
+      "me puedes llamar",
+      "tienes whatsapp",
+      "quiero hablar con el dueño"
+    ],
+    "palabras": [
+      "persona",
+      "humano",
+      "whatsapp",
+      "llamar",
+      "dueño",
+      "hablar"
+    ],
+    "respuesta": "El soporte es por correo, sin llamadas de soporte: escríbenos a {CORREO_SOPORTE} y te responde una persona. La llamada 1 a 1 de 30 minutos es solo un bono para los primeros 30 compradores, para aprender a crear agentes."
+  },
+  {
+    "id": "saludo",
+    "preguntas": [
+      "hola",
+      "buenas",
+      "buenos dias",
+      "buenas tardes",
+      "hey",
+      "hola que tal",
+      "saludos"
+    ],
+    "palabras": [
+      "hola",
+      "buenas",
+      "buenos",
+      "saludos",
+      "hey"
+    ],
+    "respuesta": "¡Hola! Soy el asistente de Video Editor Kit. Te cuento qué hace, cuánto cuesta, en qué computadores funciona o cómo es la garantía. ¿Qué te gustaría saber?"
+  },
+  {
+    "id": "gracias",
+    "preguntas": [
+      "gracias",
+      "muchas gracias",
+      "mil gracias",
+      "gracias por la info",
+      "genial gracias",
+      "perfecto gracias"
+    ],
+    "palabras": [
+      "gracias",
+      "agradezco",
+      "genial",
+      "perfecto"
+    ],
+    "respuesta": "¡Con gusto! Si te queda alguna duda, pregúntame. Y si ya lo tienes claro, aquí puedes comprarlo: {LINK_COMPRA}"
+  },
+  {
+    "id": "despedida",
+    "preguntas": [
+      "adios",
+      "chao",
+      "hasta luego",
+      "nos vemos",
+      "bye",
+      "me voy"
+    ],
+    "palabras": [
+      "adios",
+      "chao",
+      "luego",
+      "bye"
+    ],
+    "respuesta": "¡Hasta pronto! Si más adelante tienes preguntas, escríbenos a {CORREO_SOPORTE}."
+  },
+  {
+    "id": "ayuda-menu",
+    "preguntas": [
+      "ayuda",
+      "no entiendo",
+      "que puedo preguntar",
+      "menu",
+      "opciones",
+      "que me puedes decir",
+      "info"
+    ],
+    "palabras": [
+      "ayuda",
+      "entiendo",
+      "menu",
+      "opciones",
+      "informacion",
+      "info"
+    ],
+    "respuesta": "Puedo contarte qué hace el kit, cómo se usa con «empezar», qué edita, en qué computadores funciona, cuánto cuesta, cómo es la garantía de 15 días y cómo se entrega. Escribe tu pregunta con tus palabras."
+  },
+  {
+    "id": "confirmacion",
+    "preguntas": [
+      "ok",
+      "vale",
+      "listo",
+      "entendido",
+      "de acuerdo",
+      "ya veo",
+      "ah ok"
+    ],
+    "palabras": [
+      "ok",
+      "vale",
+      "listo",
+      "entendido",
+      "acuerdo"
+    ],
+    "respuesta": "Perfecto. ¿Quieres saber algo más? Si ya estás listo, lo compras aquí: {LINK_COMPRA}"
+  }
+]
