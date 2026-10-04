@@ -425,7 +425,7 @@
       "update",
       "gratis"
     ],
-    "respuesta": "Sí: la próxima versión, la 1.4.1, es gratis para quien ya compró. Cuando instales una versión nueva, escribes «empezar» en la carpeta nueva y trae tu perfil de estilo."
+    "respuesta": "Sí: la próxima versión, la 1.4.1, es gratis para quien ya compró. En la carpeta nueva escribes «empezar»: si ya tenías un perfil de estilo, el kit lo busca (o te pregunta dónde está la carpeta anterior) y lo trae sin tocarla. Tus trabajos (projects/) y tus reglas (my-rules.md, brand-kit.md) los copias a mano, o se lo pides a Claude."
   },
   {
     "id": "claude-chatgpt",
