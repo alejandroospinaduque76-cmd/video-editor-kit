@@ -93,7 +93,7 @@
       "2018",
       "2019"
     ],
-    "respuesta": "Sí puedes comprarlo. En un Mac con Intel real ya pasa lo que antes fallaba: instalar el motor y transcribir en español. La edición completa en Intel sigue en prueba final: si algo falla, escríbenos y te avisamos o te devolvemos el dinero. Además tienes la garantía de primera edición de 15 días. Si prefieres, déjame tu correo y te aviso cuando la edición completa esté probada en Intel: {LINK_COMPRA}"
+    "respuesta": "Sí. La edición completa (un clip vertical en español con tu perfil de estilo y un clip 16:9 para YouTube) se probó automáticamente de principio a fin en Mac con Apple Silicon, Mac con Intel, Windows y Linux, sin aplicación de edición (ruta chat-only). Tienes además la garantía de primera edición de 15 días: {LINK_COMPRA}"
   },
   {
     "id": "linux",
@@ -167,7 +167,7 @@
       "sistemas",
       "equipo"
     ],
-    "respuesta": "La edición completa (un clip vertical en español con tu perfil de estilo y un clip 16:9 para YouTube) se probó automáticamente de principio a fin en Mac con Apple Silicon, Windows y Linux, sin aplicación de edición (ruta chat-only). En Linux, el instalador te muestra un comando para instalar las herramientas base. Mac con Intel: la versión para tu computador está en su prueba final; si algo falla, escríbenos y te avisamos cuando esté lista o te devolvemos el dinero."
+    "respuesta": "La edición completa (un clip vertical en español con tu perfil de estilo y un clip 16:9 para YouTube) se probó automáticamente de principio a fin en Mac con Apple Silicon, Mac con Intel, Windows y Linux, sin aplicación de edición (ruta chat-only). En Linux, el instalador te muestra un comando para instalar las herramientas base."
   },
   {
     "id": "precio",
@@ -425,7 +425,7 @@
       "update",
       "gratis"
     ],
-    "respuesta": "Sí: la versión para Mac con Intel, cuando termine su prueba final, es gratis para quien compre. Cuando instales una versión nueva, escribes «empezar» en la carpeta nueva y trae tu perfil de estilo."
+    "respuesta": "Sí: la próxima versión, la 1.4.1, es gratis para quien ya compró. Cuando instales una versión nueva, escribes «empezar» en la carpeta nueva y trae tu perfil de estilo."
   },
   {
     "id": "claude-chatgpt",
@@ -572,7 +572,7 @@
       "gb",
       "disco"
     ],
-    "respuesta": "Necesitas tu cuenta de Claude (Claude Code) o de ChatGPT (Codex), unos 10 GB libres e internet para la primera instalación. La edición completa (un clip vertical en español con tu perfil de estilo y un clip 16:9 para YouTube) se probó automáticamente de principio a fin en Mac con Apple Silicon, Windows y Linux, sin aplicación de edición (ruta chat-only). En Linux, el instalador te muestra un comando para instalar las herramientas base. Mac con Intel: la versión para tu computador está en su prueba final; si algo falla, escríbenos y te avisamos cuando esté lista o te devolvemos el dinero."
+    "respuesta": "Necesitas tu cuenta de Claude (Claude Code) o de ChatGPT (Codex), unos 10 GB libres e internet para la primera instalación. La edición completa (un clip vertical en español con tu perfil de estilo y un clip 16:9 para YouTube) se probó automáticamente de principio a fin en Mac con Apple Silicon, Mac con Intel, Windows y Linux, sin aplicación de edición (ruta chat-only). En Linux, el instalador te muestra un comando para instalar las herramientas base."
   },
   {
     "id": "descarga-inicial",
@@ -628,7 +628,7 @@
       "vertical",
       "tipo de videos"
     ],
-    "respuesta": "Edita video vertical corto (Reels, TikTok, Shorts) y videos 16:9 para YouTube: la edición completa de los dos se probó automáticamente en Mac con Apple Silicon, Windows y Linux. También convierte un video largo en varios clips verticales con subtítulos, probado en Mac con Apple Silicon."
+    "respuesta": "Edita video vertical corto (Reels, TikTok, Shorts) y videos 16:9 para YouTube: la edición completa de los dos se probó automáticamente en Mac con Apple Silicon, Mac con Intel, Windows y Linux. También convierte un video largo en varios clips verticales con subtítulos, probado en Mac con Apple Silicon."
   },
   {
     "id": "youtube",
@@ -646,7 +646,7 @@
       "16:9",
       "10 minutos"
     ],
-    "respuesta": "Sí. La edición completa automática de un clip 16:9 para YouTube (cortes, audio y versión a −14 LUFS y pico real de −1,5 dBTP o menos) está probada en Mac con Apple Silicon, Windows y Linux. Los gráficos avanzados y el color pueden necesitar un ajuste tuyo."
+    "respuesta": "Sí. La edición completa automática de un clip 16:9 para YouTube (cortes, audio y versión a −14 LUFS y pico real de −1,5 dBTP o menos) está probada en Mac con Apple Silicon, Mac con Intel, Windows y Linux. Los gráficos avanzados y el color pueden necesitar un ajuste tuyo."
   },
   {
     "id": "clips",
